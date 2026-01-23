@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+
+
+:root{
+    --background-color:rgba(65, 37, 103, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive code  */
+@media screen and (max-width:500px) {
+    .menu-container span{
+        display: none;
+    }
+}
