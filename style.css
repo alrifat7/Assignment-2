@@ -3,7 +3,19 @@
 
 
 :root{
-    --background-color:rgba(65, 37, 103, 1);
+    --background-color:rgb(26, 10, 49);
+}
+
+.humberger{
+    text-align: end;
+    padding-top: ;
+}
+
+.bg-image {
+    background-image: url(./B13-A02-TechWave/assets/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    
 }
 
 
