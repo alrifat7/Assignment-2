@@ -22,12 +22,31 @@
 
 
 
+/* Aboout section start */
+
+#about {
+    background-color: var(--background-color);
+    color: white;
+    padding: 50px 0;
+}
+
+#about>h1 text{
+    color: var(--text-green);
+    color: green;
+
+}
 
 
 
 
 
+/* choose section started */
 
+.bg-\(--bg-chooses\) {
+    background-color: var(--bg-chooses);
+    color: rgb(255, 255, 255);
+    background-color: rgb(26, 10, 49);
+}
 
 
 
