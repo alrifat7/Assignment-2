@@ -48,6 +48,11 @@
     background-color: rgb(26, 10, 49);
 }
 
+#episodes{
+    background-color: var(--background-color);
+    color: white;
+}
+
 
 
 
