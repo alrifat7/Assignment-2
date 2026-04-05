@@ -2,8 +2,13 @@
 
 
 
-:root{
-    --background-color:rgb(26, 10, 49);
+:root {
+    --background-color: #0f172a; /* Apnar dark theme color */
+    --text-primary: #ffffff;
+    --btn-border: #4ade80;
+    --bg-color: #1e293b;
+    --border-color: #334155;
+    --card-chooses: #1e293b;
 }
 
 .humberger{

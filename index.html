@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
@@ -14,7 +14,7 @@
 
 </head>
 <body>
-    <nav class=" bg-(--background-color)">
+    <nav class="bg-[#1a0b2e] border-b border-white/20">
         <section>
         <div class="flex item-center justify-between w-[80%]  mx-auto py-4 px-2">
             <!-- logo -->
@@ -43,13 +43,15 @@
     <section class="bg-image">
         <div class="w-[97%] mx-auto sm:-[95%] md:w-[90%] lg:-[85%] xl:w-[80%]">
             <div class="text-center justify-center items-center flex flex-col gap-6 py-16 sm:py-20 md:py-28">
-                <div   class="w-[200px] sm:w-[300px] md:w-[320px] hero-img items-center flex justify-center relative">
-
-                    <img class="w-18 sm:w-24 md:w-28 mic" src="./assets/microphone.png" alt="">
-                    <div class="absolute top-14 right-0 sm:top-4 sm:right-0">
-                        <span   class="text-[16px] py-2 px-4 sm:py-3 sm:px-6 font-bold rounded-4xl bg-(--btn-border) shadow-(--box-shadow)">NEW</span>
-                    </div>
-                </div>
+            <div class="relative flex h-32 w-32 sm:h-40 sm:w-40 items-center justify-center rounded-full border-4 border-[#2a1b54] bg-gradient-to-br from-[#ff00ff] via-[#7a00ff] to-[#ffff00] shadow-2xl mx-auto">
+    <img class="w-3/5 drop-shadow-lg" src="./assets/microphone.png" alt="Mic">
+    
+    <div class="absolute -top-2 -right-2">
+        <span class="rounded-full bg-[#00ff99] px-3 py-1 text-[10px] font-extrabold text-black shadow-[0_0_10px_rgba(0,255,153,0.6)]">
+            NEW
+        </span>
+    </div>
+</div>
 
                 <!-- banner text -->
                 <div class="max-w-[500px] flex flex-col gap-4 sm:gap-6"></div>>
@@ -60,10 +62,10 @@
                 </p>
                 <!-- banner button -->
                 <div class="flex justify-center gap-2 sm:gap-4">
-                    <button class="text-(--text-primary) font-semibold leading-5 rounded-4xl text-[16px] py-3 px-6 gradient-button gap-2 flex items-center cursor-pointer transition-all duration-500 ease-in-out hover:bg-pos-100 hover:scale-105">
+                    <button class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-semibold leading-5 rounded-4xl text-[16px] py-3 px-6 gradient-button gap-2 flex items-center cursor-pointer transition-all duration-500 ease-in-out hover:bg-pos-100 hover:scale-105 text-white">
                         <img src="./assets/spotify.png" alt="" />Listen on Spotify>
                     </button>
-                    <button          class="text-(--text-green) font-semibold leading-5 rounded-4xl text-[16px] py-3 px-6 gap-2 flex items-center cursor-pointer border-2 border-(--btn-border) transition-all duration-500 ease-in-out hover:bg-pos-100 hover:scale-105">
+                    <button class="text-green-400 font-semibold leading-5 rounded-4xl text-[16px] py-3 px-6 gap-2 flex items-center cursor-pointer border-2 border-(--btn-border) transition-all duration-500 ease-in-out hover:bg-pos-100 hover:scale-105">
                         <img src="./assets/message.png" alt="" />Subscribe >
                     </button>
                 </div>
